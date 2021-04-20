@@ -19,7 +19,7 @@ const Navbar = ({totalItems}) => {
                         Home
                     </Typography>
                     <div className={classes.grow}></div>
-                    {location.pathname === '/' && (
+                    {/* {location.pathname === '/' && ( */}
                     <div className={classes.button}>
                         <IconButton component={Link} to="/cart" arial-label="Show cart items" color="inherit">
                             <Badge badgeContent={totalItems} color="secondary">
@@ -27,7 +27,7 @@ const Navbar = ({totalItems}) => {
                             </Badge>
                         </IconButton>
                     </div>
-                    )}
+                    {/* )} */}
                 </Toolbar>
             </AppBar>
         </div>
